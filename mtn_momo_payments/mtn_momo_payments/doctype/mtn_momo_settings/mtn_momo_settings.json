@@ -1,0 +1,92 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-04-11 10:16:29.599722",
+ "default_view": "List",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "api_user",
+  "subscription_key",
+  "api_key",
+  "company_external_id",
+  "column_break_ztzh",
+  "access_token",
+  "sandbox",
+  "production"
+ ],
+ "fields": [
+  {
+   "fieldname": "api_user",
+   "fieldtype": "Data",
+   "label": "API User"
+  },
+  {
+   "description": "MTN MoMo subscription key for API Authentication",
+   "fieldname": "subscription_key",
+   "fieldtype": "Data",
+   "label": "Subscription Key"
+  },
+  {
+   "description": "API key generated for your MTN MoMo User",
+   "fieldname": "api_key",
+   "fieldtype": "Data",
+   "label": "API Key"
+  },
+  {
+   "description": "Mobile number associated with all MoMo transactions.",
+   "fieldname": "company_external_id",
+   "fieldtype": "Data",
+   "label": "Company External Id"
+  },
+  {
+   "fieldname": "column_break_ztzh",
+   "fieldtype": "Column Break"
+  },
+  {
+   "description": "Temporary token used to authenticate API requests to MTN MoMo.",
+   "fieldname": "access_token",
+   "fieldtype": "Small Text",
+   "label": "Access Token"
+  },
+  {
+   "default": "0",
+   "description": "Check If it's Testing Environment",
+   "fieldname": "sandbox",
+   "fieldtype": "Check",
+   "label": "Sandbox"
+  },
+  {
+   "default": "0",
+   "description": "Check If it's Production Environment",
+   "fieldname": "production",
+   "fieldtype": "Check",
+   "label": "Production"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-04-11 10:23:21.637633",
+ "modified_by": "Administrator",
+ "module": "MTN Momo Payments",
+ "name": "MTN Momo Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}
