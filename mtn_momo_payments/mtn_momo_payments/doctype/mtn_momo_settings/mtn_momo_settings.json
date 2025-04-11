@@ -6,6 +6,7 @@
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
+  "call_back_url",
   "api_user",
   "subscription_key",
   "api_key",
@@ -62,11 +63,18 @@
    "fieldname": "production",
    "fieldtype": "Check",
    "label": "Production"
+  },
+  {
+   "fieldname": "call_back_url",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Call Back Url",
+   "reqd": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-04-11 10:23:21.637633",
+ "modified": "2025-04-11 14:56:03.767643",
  "modified_by": "Administrator",
  "module": "MTN Momo Payments",
  "name": "MTN Momo Settings",
