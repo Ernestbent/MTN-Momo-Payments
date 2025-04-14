@@ -148,23 +148,14 @@ doctype_js = {"MTN Momo Settings" : "public/js/query_momo_info.js"}
 # Scheduled Tasks
 # ---------------
 
-# scheduler_events = {
-# 	"all": [
-# 		"mtn_momo_payments.tasks.all"
-# 	],
-# 	"daily": [
-# 		"mtn_momo_payments.tasks.daily"
-# 	],
-# 	"hourly": [
-# 		"mtn_momo_payments.tasks.hourly"
-# 	],
-# 	"weekly": [
-# 		"mtn_momo_payments.tasks.weekly"
-# 	],
-# 	"monthly": [
-# 		"mtn_momo_payments.tasks.monthly"
-# 	],
-# }
+# Scheduled Tasks
+# ---------------
+
+scheduler_events = {
+    "hour": [
+        "mtn_momo_payments.mtn_momo_payments.api_calls.create_access_token.update_all_access_tokens"
+    ]
+}
 
 # Testing
 # -------
