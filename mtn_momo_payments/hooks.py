@@ -152,7 +152,7 @@ doctype_js = {"MTN Momo Settings" : "public/js/query_momo_info.js"}
 # ---------------
 
 scheduler_events = {
-    "hour": [
+    "hourly": [
         "mtn_momo_payments.mtn_momo_payments.api_calls.create_access_token.update_all_access_tokens"
     ]
 }
