@@ -11,7 +11,6 @@
   "subscription_key",
   "api_key",
   "company_external_id",
-  "company",
   "column_break_ztzh",
   "access_token",
   "sandbox",
@@ -71,17 +70,11 @@
    "in_list_view": 1,
    "label": "Call Back Url",
    "reqd": 1
-  },
-  {
-   "fieldname": "company",
-   "fieldtype": "Link",
-   "label": "Company",
-   "options": "Company"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-04-17 16:29:34.082059",
+ "modified": "2025-04-17 16:58:58.875687",
  "modified_by": "Administrator",
  "module": "MTN Momo Payments",
  "name": "MTN Momo Settings",
