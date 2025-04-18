@@ -1,11 +1,13 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "field:company",
  "creation": "2025-04-11 10:16:29.599722",
  "default_view": "List",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
+  "company",
   "call_back_url",
   "api_user",
   "subscription_key",
@@ -70,14 +72,22 @@
    "in_list_view": 1,
    "label": "Call Back Url",
    "reqd": 1
+  },
+  {
+   "fieldname": "company",
+   "fieldtype": "Link",
+   "label": "Company",
+   "options": "Company",
+   "unique": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-04-17 16:58:58.875687",
+ "modified": "2025-04-18 18:27:23.504948",
  "modified_by": "Administrator",
  "module": "MTN Momo Payments",
  "name": "MTN Momo Settings",
+ "naming_rule": "By fieldname",
  "owner": "Administrator",
  "permissions": [
   {

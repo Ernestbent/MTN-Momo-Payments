@@ -37,7 +37,7 @@ function generate_api_key(frm) {
         },
         callback: function (r) {
             if (r.message) {
-                frm.set_value('api_key', r.message.api_key_secret);
+                frm.set_value('api_key', r.message.api_secret);
                 frappe.msgprint(__('API Key created successfully'));
             }
         }
