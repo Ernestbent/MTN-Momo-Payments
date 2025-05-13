@@ -33,7 +33,7 @@
   {
    "description": "API key generated for your MTN MoMo User",
    "fieldname": "api_key",
-   "fieldtype": "Data",
+   "fieldtype": "Password",
    "label": "API Key"
   },
   {
@@ -83,7 +83,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-04-18 18:27:23.504948",
+ "modified": "2025-05-13 09:58:56.932134",
  "modified_by": "Administrator",
  "module": "MTN Momo Payments",
  "name": "MTN Momo Settings",
